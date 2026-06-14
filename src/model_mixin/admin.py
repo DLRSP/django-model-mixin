@@ -12,7 +12,8 @@ class ModelAdminPublishFieldsMixin(admin.ModelAdmin):
     actions = ["make_published", "make_unpublished"]
 
     @admin.action(
-        permissions=["publish"], description=_("Mark selected object as published")
+        permissions=["publish"],
+        description=_("Mark selected object as published"),
     )
     def make_published(self, request, queryset):
         """Action to update selected object as published"""
@@ -35,7 +36,8 @@ class ModelAdminPublishFieldsMixin(admin.ModelAdmin):
         return request.user.has_perm(f"{opts.app_label}.{codename}")
 
     @admin.action(
-        permissions=["unpublish"], description=_("Mark selected object as unpublished")
+        permissions=["unpublish"],
+        description=_("Mark selected object as unpublished"),
     )
     def make_unpublished(self, request, queryset):
         """Action to update selected object as unpublished"""
