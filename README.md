@@ -27,19 +27,18 @@ pip install django-model-mixin
 2. Modify `settings.py` by adding the app to `INSTALLED_APPS`:
 ```python
 INSTALLED_APPS = [
-    # ...
+    "django.contrib.admin",
     "model_mixin",
-    # ...
 ]
 ```
 
 3. Modify your project `models.py` with needed imports and class extends:
 ```python
-# ...other imports...
 from model_mixin.models import AuditModelMixin, PublishModelMixin
 
+
 class MyCustomClass(AuditModelMixin, PublishModelMixin):
-    # ...
+    pass
 ```
 
 4. Execute Django's command `makemigrations` inside your project's root:
