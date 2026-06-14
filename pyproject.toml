@@ -136,4 +136,3 @@ allow_dirty = true
 
 [[tool.bumpversion.files]]
 filename = "./src/model_mixin/__init__.py"
-
