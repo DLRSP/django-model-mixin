@@ -15,7 +15,12 @@ dynamic = ["version"]
 readme = "README.md"
 license = "MIT"
 license-files = ["LICENSE"]
-keywords = ["django"]
+keywords = [
+    "django",
+    "mixins",
+    "models",
+    "reusable",
+]
 classifiers = [
     "Development Status :: 5 - Production/Stable",
     "Environment :: Web Environment",
@@ -63,6 +68,10 @@ linting = [
 
 [project.urls]
 Homepage = "https://github.com/DLRSP/django-model-mixin"
+Documentation = "https://github.com/DLRSP/django-model-mixin/"
+Repository = "https://github.com/DLRSP/django-model-mixin"
+Issues = "https://github.com/DLRSP/django-model-mixin/issues"
+Changelog = "https://github.com/DLRSP/django-model-mixin/blob/main/CHANGELOG.rst"
 
 [tool.setuptools]
 package-dir = { "" = "src" }
@@ -109,7 +118,6 @@ ignore = [
     "docs/community/third-party-packages.md",
     "docs/tutorial/customize.md",
 ]
-["AGENTS.md"]
 
 # Read by flake8 when flake8-pyproject is installed (extra `linting`).
 [tool.mypy]

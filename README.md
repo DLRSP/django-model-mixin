@@ -2,7 +2,7 @@
 
 [![PyPi status](https://img.shields.io/pypi/status/django-model-mixin.svg)](https://pypi.python.org/pypi/django-model-mixin)
 [![PyPi version](https://img.shields.io/pypi/v/django-model-mixin.svg)](https://pypi.python.org/pypi/django-model-mixin)
-[![Python version](https://img.shields.io/badge/python-3.9%20|%203.10%20|%203.11%20|%203.12%20|%203.13-blue.svg)]()
+[![PyPi python version](https://img.shields.io/pypi/pyversions/django-model-mixin.svg)](https://pypi.python.org/pypi/django-model-mixin)
 [![PyPi downloads](https://img.shields.io/pypi/dm/django-model-mixin.svg)](https://pypi.python.org/pypi/django-model-mixin)
 [![PyPi downloads](https://img.shields.io/pypi/dw/django-model-mixin.svg)](https://pypi.python.org/pypi/django-model-mixin)
 [![PyPi downloads](https://img.shields.io/pypi/dd/django-model-mixin.svg)](https://pypi.python.org/pypi/django-model-mixin)
