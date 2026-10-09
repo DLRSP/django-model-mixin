@@ -156,7 +156,7 @@ django_find_project = false
 
 # bump-my-version
 [tool.bumpversion]
-current_version = "0.3.12"
+current_version = "0.3.13"
 commit = true
 tag = true
 allow_dirty = true
